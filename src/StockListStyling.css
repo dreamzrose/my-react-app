@@ -1,0 +1,39 @@
+/* Unordered list styling */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+/* Individual stock list items */
+li {
+    background-color: #f8f9fa;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Paragraph styling within list items */
+li p {
+    margin: 5px 0;
+}
+
+li p:first-child {
+    font-weight: 700;
+}
+
+/* Profit/Loss color coding */
+li p:last-child {
+    margin-top: 10px;
+    font-weight: 700;
+    color: #28a745; /* Green for profit */
+}
+
+li p:last-child.loss {
+    color: #dc3545; /* Red for loss */
+}
+
+/* Container for the stock list */
+.stock-list-container {
+    margin-top: 20px;
+}
