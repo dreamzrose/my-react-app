@@ -2,7 +2,10 @@ import './App.css';  // Import global app styles
 import StockForm from './StockForm';
 import StockList from './StockList';
 import { StockProvider } from "./StockContext"; 
-import financeIcon from './assets/financeIcon.png';
+
+// import financeIcon from './assets/financeicon.png';
+import financeIcon from '../public/assets/financeicon.png'
+
 
 function App() {
     return (
